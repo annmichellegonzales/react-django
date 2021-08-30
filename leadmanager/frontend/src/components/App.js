@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react'
 
-class Apps extends React.Component {
+import Header from './layout/Header'
+
+class Apps extends Component {
     render() {
-        return <h1>React App</h1>
+        return (
+            <Header />
+        )
     }
 }
 
