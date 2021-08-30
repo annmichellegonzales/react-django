@@ -1,13 +1,9 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react'
-
-import Header from './layout/Header'
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom'
 
 class Apps extends Component {
     render() {
-        return (
-            <Header />
-        )
+        return<h1>React App</h1>
     }
 }
 
